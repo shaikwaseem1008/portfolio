@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('./putimage.jpg');
+    background-size:cover;
+    
+    
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    padding: 40px;
+    padding-top: 160px;
+    padding-left: 200px;
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+.boldLetters{
+    font-weight: bold;
+}
+
+/* services section css */
+.bg-color1 {
+    background-color: #323f4b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img-size {
+    width: 60px;
+}
+
+.head2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.para {
+    color: #9aa5b1;
+    font-size: 28px;
+}
+.heading{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
